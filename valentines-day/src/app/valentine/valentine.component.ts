@@ -16,7 +16,7 @@ export class ValentineComponent {
   buttonLeft: number = 0;
   buttonTop: number = 0;
   objStyle = {
-    top: '56.2%',
+    top: '75.2%',
     left: '45%'
   }
 
