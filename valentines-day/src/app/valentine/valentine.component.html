@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="valentine">
+        <img class="valentine__gif" [src]="imagePath" alt="">
+        <div class="text">
+            <h1 class="valentine__title">{{valentineTitile}}</h1>
+            <p class="valentine__text" id="question">{{valentineText}}</p>
+        </div>
+        @if(buttonsVisible) {
+            <button (mouseenter)="no()" [ngStyle]="objStyle" class="button">Ні</button>
+            <button (click)="yes()" class="button">Так</button>
+        }
+    </div>
+</div>
